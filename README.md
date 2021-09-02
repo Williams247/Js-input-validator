@@ -25,3 +25,5 @@ if (error) {
   console.log("Validation process passed");
 }
 ```
+## Link
+https://www.npmjs.com/package/js-input-field-validator
