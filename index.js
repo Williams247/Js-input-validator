@@ -31,12 +31,12 @@ module.exports = (values) => {
 
     // Check min values
     if (values[i].value.length < values[i].min) {
-      return `${values[i].field} should not be less than ${values[i].min}, try another value greater than or equal to ${values[i].min}`;
+      return `${values[i].field} should not be less than ${values[i].min} characters, try another value greater than or equal to ${values[i].min} characters`;
     }
 
     // Check max values
     if (values[i].value.length > values[i].max) {
-      return `${values[i].field} should not be greater than ${values[i].max}, try another value less or equal to ${values[i].max}`;
+      return `${values[i].field} should not be greater than ${values[i].max} characters, try another value less or equal to ${values[i].max} characters`;
     }
   }
 };
