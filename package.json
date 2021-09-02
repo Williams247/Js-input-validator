@@ -1,0 +1,12 @@
+{
+  "name": "js-input-field-validator",
+  "version": "1.0.0",
+  "description": "a library for input validation",
+  "main": "index.js",
+  "keywords": [
+    "npm",
+    "js-input-field-validator"
+  ],
+  "author": "williams alex",
+  "license": "ISC"
+}
